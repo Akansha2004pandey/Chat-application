@@ -22,3 +22,27 @@ Mongoose: An ODM (Object Data Modeling) library for MongoDB and Node.js, used to
 Authentication:
 
 JWT (JSON Web Tokens): Used for secure user authentication and authorization, ensuring that user sessions are protected.
+
+## Documentation
+
+[Express.js](https://expressjs.com/) |
+[React.js](https://react.dev/) |
+[Json Web Token](https://jwt.io/)
+
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+`PORT` | 
+`MONGO_URI` |
+`JWT_SECRET_KEY`
+
+
+## Features
+
+1. User Registration and Login: Allow users to create accounts and securely log in to access chat functionalities.
+2. Real-Time Messaging: Enable instant message delivery between users using Socket.IO for real-time communication.
+3. Private Messaging: Option for users to send direct messages to one another outside of chat rooms.
+
+
